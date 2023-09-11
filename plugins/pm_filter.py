@@ -1396,10 +1396,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "filters":
         buttons = [[
-            InlineKeyboardButton('🔍🔧 ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ 🔧🔍', callback_data='manuelfilter'),
+            InlineKeyboardButton('🔍🔧 ᴍᴀɴᴜᴀʟ ғɪʟᴛᴇʀ 🔧🔍', callback_data='manuelfilter')
+        ],[
             InlineKeyboardButton('🔍✨ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ✨🔍', callback_data='autofilter')
         ],[
-            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='help'),
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='help')
+        ],[
             InlineKeyboardButton('🌐🔍 ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ 🔍🌐', callback_data='global_filters')
         ]]
         
@@ -1459,7 +1461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url=GRP_LNK),
             InlineKeyboardButton('⚡ ᴍʏ ᴇɴᴇʀɢʏ ⚡', callback_data='source')
         ],[
-            InlineKeyboardButton('⁉️ ʜᴇʟᴘ ⁉️', callback_data='start'),
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='start'),
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         await client.edit_message_media(
