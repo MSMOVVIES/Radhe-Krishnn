@@ -1534,6 +1534,43 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "owner_hun":
+        buttons = [[
+            InlineKeyboardButton('📞 ᴄᴏɴᴛᴀᴄᴛ 🐍', url="https://t.me/MS_Contact_RoBot")
+        ],[
+            InlineKeyboardButton('🏡 ʜᴏᴍᴇ 🏡', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.OWNER_HUN,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "oye_support":
+        buttons = [[
+            InlineKeyboardButton('🔮ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ🔮', url="https://t.me/MS_Movvies")
+        ],[
+            InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url="https://t.me/Movvies_Request")
+        ],[
+            InlineKeyboardButton('🏡 ʜᴏᴍᴇ 🏡', callback_data='start')
+            InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.OYE_SUPPORT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "coct":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
