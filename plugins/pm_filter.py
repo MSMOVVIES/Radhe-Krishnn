@@ -1400,9 +1400,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🔍✨ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ✨🔍', callback_data='autofilter')
         ],[
-            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='help')
-        ],[
             InlineKeyboardButton('🌐🔍 ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ 🔍🌐', callback_data='global_filters')
+        ],[
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='help')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1441,7 +1441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚔ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ⚔', callback_data='coct'),
             InlineKeyboardButton('🔥 ᴇxᴛʀᴀ ᴘᴏᴡᴇʀ 🔥', callback_data='extra')
         ], [
-            InlineKeyboardButton('⁉️ ʜᴇʟᴘ ⁉️', callback_data='start'),
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='start'),
             InlineKeyboardButton('🔭 ꜱᴛᴀᴛᴜꜱ 📊', callback_data='stats')
         ]]
         
