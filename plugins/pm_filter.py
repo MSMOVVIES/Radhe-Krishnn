@@ -1521,7 +1521,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autofilter":
         buttons = [[
-            InlineKeyboardButton(🔙 ʙᴀᴄᴋ 🔙', callback_data='filters')
+            InlineKeyboardButton('🔙 ʙᴀᴄᴋ 🔙', callback_data='filters')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
