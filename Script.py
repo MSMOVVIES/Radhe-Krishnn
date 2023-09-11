@@ -104,6 +104,19 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
+    OWNER_HUN = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    
+• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍꜱ_ʜᴀᴄᴋᴇʀ
+• ᴜꜱᴇʀɴᴀᴍᴇ : @MS_Contact_Robot
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MS_ContactRobot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+
+    OYE_SUPPORT = """<b>⍟───[ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ]───⍟
+
+𖣘 <a href='https://t.me/MS_Movvies'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲</a>
+𖣘  <a href='https://t.me/Movvies_Request'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻</a>
+𖣘  <a href='https://t.me/Movvies_Request'>𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a>
+𖣘  <a href='https://t.me/Movvies_Request'>𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a></b>"""
+    
     STATUS_TXT = """<b>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs
 📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 👩🏻‍💻 ᴜsᴇʀs: <code>{}</code>
