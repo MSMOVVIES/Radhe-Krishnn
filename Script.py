@@ -46,7 +46,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/TeamHMT_Bots)</code>
+<code>[Button Text](buttonurl:https://t.me/MS_Movvies)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -108,13 +108,16 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     
 • ꜰᴜʟʟ ɴᴀᴍᴇ : ᴍꜱ_ʜᴀᴄᴋᴇʀ
 • ᴜꜱᴇʀɴᴀᴍᴇ : @MS_Contact_Robot
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MS_ContactRobot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MS_Contact_Robot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     OYE_SUPPORT = """<b>⍟───[ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ]───⍟
 
 𖣘 <a href='https://t.me/MS_Movvies'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗨𝗽𝗱𝗮𝘁𝗲</a>
+
 𖣘  <a href='https://t.me/Movvies_Request'>𝗕𝗼𝘁 / 𝗠𝗼𝘃𝗶𝗲 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻</a>
+
 𖣘  <a href='https://t.me/Movvies_Request'>𝗠𝗼𝘃𝗶𝗲 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a>
+
 𖣘  <a href='https://t.me/Movvies_Request'>𝗦𝗲𝗿𝗶𝗲𝘀 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗚𝗿𝗼𝘂𝗽</a></b>"""
     
     STATUS_TXT = """<b>Cᴜʀʀᴇɴᴛ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛᴜs
@@ -220,7 +223,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """<b>
-🗄️ ғɪʟᴇ: {file_name}
+🗄️ ғɪʟᴇ: <code>{file_name}</code>
 
 🥀 sɪᴢᴇ : {file_size}</b>"""
 
