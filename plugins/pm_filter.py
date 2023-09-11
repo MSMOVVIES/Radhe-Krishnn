@@ -1557,7 +1557,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 👥', url="https://t.me/Movvies_Request")
         ],[
-            InlineKeyboardButton('🏡 ʜᴏᴍᴇ 🏡', callback_data='start')
+            InlineKeyboardButton('🏡 ʜᴏᴍᴇ 🏡', callback_data='start'),
             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
