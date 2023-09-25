@@ -149,8 +149,6 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔮 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔮', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("🎥🍿 ɢʀᴏᴜᴘ 🍿🎥", url="https://t.me/+qIz0BPy3hAZjODRl")
                          ]
                         ]
                     )
@@ -167,8 +165,6 @@ async def start(client, message):
                         [
                          [
                           InlineKeyboardButton('🔮 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔮', url=CHNL_LNK)
-                       ],[
-                          InlineKeyboardButton("🎥🍿 ɢʀᴏᴜᴘ 🍿🎥", url="https://t.me/+qIz0BPy3hAZjODRl")
                          ]
                         ]
                     )
@@ -314,7 +310,7 @@ async def start(client, message):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("✅ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/17')
+                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/28')
                 ]]
                 await message.reply_text(
                     text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
@@ -331,9 +327,7 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('🔮 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔮', url=CHNL_LNK)
-                       ],[
-                      InlineKeyboardButton("🎥🍿 ɢʀᴏᴜᴘ 🍿🎥", url="https://t.me/+qIz0BPy3hAZjODRl")
-                     ]
+                       ]
                     ]
                 )
             )
@@ -373,7 +367,7 @@ async def start(client, message):
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("✅ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/17')
+                    InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/28')
                 ]]
                 await message.reply_text(
                     text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
@@ -389,15 +383,13 @@ async def start(client, message):
                     [
                      [
                       InlineKeyboardButton('🔮 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔮', url=CHNL_LNK)
-                       ],[
-                      InlineKeyboardButton("🎥🍿 ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🍿🎥", url="https://t.me/+qIz0BPy3hAZjODRl")
-                     ]
+                       ],
                     ]
                 )
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
-            title = '@MS_Movvies ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
+            title = 'MS' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
             if CUSTOM_FILE_CAPTION:
@@ -415,7 +407,7 @@ async def start(client, message):
             pass
         return await message.reply('No such file exist.')
     files = files_[0]
-    title = '@MS_Movvies ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
+    title = 'MS' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), files.file_name.split()))
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
@@ -429,7 +421,7 @@ async def start(client, message):
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("✅ ᴠᴇʀɪғʏ ✅", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-            InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/17')
+            InlineKeyboardButton("⁉️ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ ⁉️", url='https://t.me/MS_Mihir/28')
         ]]
         await message.reply_text(
             text="<b>‼️ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ᴀʟᴇʀᴛ ‼️ \n\n🔥 ᴛᴏ ᴜɴʟᴏᴄᴋ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ꜰɪʟᴇꜱ ꜰᴏʀ ꜰᴇᴡ ʜᴏᴜʀꜱ ✅\n\n♨️ ᴠᴇʀɪꜰʏ ʏᴏᴜʀꜱᴇʟꜰ. 🚀</b>",
@@ -446,8 +438,6 @@ async def start(client, message):
             [
              [
               InlineKeyboardButton('🔮 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔮', url=CHNL_LNK)
-              ],[
-              InlineKeyboardButton("🎥🍿 ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🍿🎥", url="https://t.me/+qIz0BPy3hAZjODRl")
              ]
             ]
         )
